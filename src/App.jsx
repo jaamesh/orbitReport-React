@@ -15,7 +15,6 @@ function App() {
        return newSatDisplay.orbitType === currentType;
     });
     setSat(displaySats);
-    alert("Got here! displaySats: " + displaySats);
   };
 
   return (
